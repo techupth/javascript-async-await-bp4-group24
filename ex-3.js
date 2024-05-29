@@ -33,3 +33,8 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+const result1 = (data) => console.log(data);
+const result2 = (data) => console.log(data);
+
+getJohnProfile().then(result1).then(getJohnOrders).then(result2);
+
